@@ -79,7 +79,7 @@ This will initialize the Database with the proper tables.  This can take several
     enabled: false
    ```
 	
-	Then, run `helm install <releasename> -f <directorylocation>/values.yaml --timeout 3600 --debug`
+Then, run `helm install <releasename> -f <directorylocation>/values.yaml --timeout 3600 --debug`
 	
    Verify the ITXA UI pod comes up and you can connect to it via `https://[hostname]/spe/myspe` with ID "admin" and the password you specified in the parameter `adminPassword` of `itxa-user-secret.yaml` file .
 
