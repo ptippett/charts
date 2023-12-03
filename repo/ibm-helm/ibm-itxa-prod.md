@@ -77,7 +77,7 @@ This will initialize the Database with the proper tables.  This can take several
     enabled: true
    itxadbinit:
     enabled: false
-    ```
+   ```
 	
 	Then, run `helm install <releasename> -f <directorylocation>/values.yaml --timeout 3600 --debug`
 	
